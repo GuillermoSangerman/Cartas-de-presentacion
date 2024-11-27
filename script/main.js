@@ -16,6 +16,7 @@ async function fetchUsers(data) {
                             <li class="list-group-item border-primary ">Telefono: ${element.phone}</li>
                             <li class="list-group-item border-primary ">Correo: ${element.email}</li>
                             <li class="list-group-item border-primary ">Pagina web: ${element.website}</li>
+                            <li class="list-group-item border-primary ">Ciudad: ${element.address.city}</li>
                             <li class="list-group-item ">Empresa: ${element.company.name}</li>
                          </ul>
                      </div>
